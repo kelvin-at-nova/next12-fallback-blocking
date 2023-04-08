@@ -1,6 +1,6 @@
-To see it in action, access `localhost:3000/sydney` in your browser.
+To see it in action, run `npm run build` and then `npm run start`, visit localhost:3000/sydney` in your browser.
 
-You will notice that this page is already in the static path list. It loads up as usual.
+Quote from the doc, "Next.js allows you to create or update static pages after you’ve built your site". It does NOT run under `npm run dev`.
 
 Now, try to access `localhost:3000/paris`, which is not in the static path list. You will notice that it loads up as usual, too. That is because SSR has kicked in and rendered the page for you.
 
